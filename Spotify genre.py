@@ -1,12 +1,11 @@
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 import pandas as pd
-from nltk.corpus import wordnet
 
 # Client ID contido no dashboard
-cid = "fd2ea91cf94f49848dfdc035f84d2b70"
+cid = "--*YOUR CID HERE*--"
 # Client Secret contido no dashboard
-secret = "d7ddb37948e84510a9bcb8cab92451b3"
+secret = "--*YOUR CLIENT SECRET HERE*--"
 
 client_credentials_manager = SpotifyClientCredentials(client_id=cid, client_secret=secret)
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
