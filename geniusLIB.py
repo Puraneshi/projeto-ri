@@ -1,7 +1,8 @@
 import lyricsgenius as genius
 import pandas as pd
 
-api = genius.Genius('QIQi7D4STCYtQIbXA6rX9VeUI6CLo75XZ6Vu_7PqMOSNPDx695d4FVn6sUHKY0za')
+api = genius.Genius('--*YOUR CLIENT ID HERE*--')
+
 genres = {"pop": ["pop"],
           "rock": ["rock"],
           "dance-electronic-house": ["dance", "electronic", "house"],
